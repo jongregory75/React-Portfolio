@@ -4,6 +4,7 @@ import Button from "react-bootstrap/Button";
 import scheduler from "../img/scheduler.JPG";
 import dailyDive from "../img/dailydive_ss.JPG";
 import dayPlanner from "../img/dayplanner_ss.JPG";
+import "./Portfolio.css";
 
 function Portfolio() {
   const projectInfo = [
@@ -34,7 +35,7 @@ function Portfolio() {
   ];
   const renderCard = (card) => {
     return (
-      <Card className="projectCard" style={{ width: "18rem" }} key={card.id}>
+      <Card className="projectCard" style={{ width: "20rem" }} key={card.id}>
         <Card.Img variant="top" src={card.image} />
         <Card.Body>
           <Card.Title>{card.title}</Card.Title>

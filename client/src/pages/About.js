@@ -10,7 +10,7 @@ function About() {
             <h1>About me</h1>
             <img
               src="/img/self.jfif"
-              class="rounded-circle w-100 shadow"
+              class="rounded-square w-100 shadow"
               alt="Me"
             ></img>
           </div>
