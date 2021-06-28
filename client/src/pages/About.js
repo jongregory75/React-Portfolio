@@ -1,14 +1,23 @@
 import React from "react";
+import { Container, Row, Col } from "react-bootstrap";
 
-export default function About() {
+function About() {
   return (
-    <div className="container">
-      <div className="card border-light">
-        <section id="about" className="card-header">
-          <h2 className="section">About</h2>
-        </section>
-        <section className="card-body">
-          <p className="card-text">
+    <Container className="justify-content-center" style={{ height: "100vh" }}>
+      <Row>
+        <Col sm={3}>
+          <div className="">
+            <h1>About me</h1>
+            <img
+              src="../img/self.jfif"
+              class="rounded-circle w-100 shadow"
+              alt="Me"
+            ></img>
+          </div>
+        </Col>
+
+        <Col sm={8} className="mt-4">
+          <p>
             Full stack developer, passionate about technology and continuous
             improvement is seeking a software development role which will assist
             in the corporate strategies to produce positive financial returns.
@@ -17,8 +26,10 @@ export default function About() {
             am now taking the skill sets I have acquired over my career and
             integrating them with software engineering.
           </p>
-        </section>
-      </div>
-    </div>
+        </Col>
+      </Row>
+    </Container>
   );
 }
+
+export default About;

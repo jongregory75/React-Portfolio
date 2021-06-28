@@ -1,14 +1,6 @@
 import React from "react";
-import Header from "./components/Header/Header";
-import "./styles/bootstrap.min.css";
-import "bootstrap/dist/css/bootstrap.min.css";
+import PortfolioContainer from "./components/PortfolioContainer";
 
-function App() {
-  return (
-    <div className="App App-header App-link">
-      <Header />
-    </div>
-  );
-}
+const App = () => <PortfolioContainer />;
 
 export default App;

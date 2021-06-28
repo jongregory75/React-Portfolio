@@ -1,9 +1,9 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
-import scheduler from "../../img/scheduler.JPG";
-import dailyDive from "../../img/dailydive_ss.JPG";
-import dayPlanner from "../../img/dayplanner_ss.JPG";
+import scheduler from "../img/scheduler.JPG";
+import dailyDive from "../img/dailydive_ss.JPG";
+import dayPlanner from "../img/dayplanner_ss.JPG";
 
 function Portfolio() {
   const projectInfo = [
