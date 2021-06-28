@@ -9,7 +9,7 @@ function About() {
           <div className="">
             <h1>About me</h1>
             <img
-              src="../img/self.jfif"
+              src="/img/self.jfif"
               class="rounded-circle w-100 shadow"
               alt="Me"
             ></img>
