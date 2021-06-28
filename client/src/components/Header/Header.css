@@ -1,0 +1,30 @@
+.Navbar {
+  color: rgb(199, 211, 224);
+  background: rgb(199, 211, 224);
+  padding: 7px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.Navbar a:hover {
+  color: #fff;
+  border-bottom: 3px solid #fff;
+}
+
+h1 {
+  background: rgb(199, 211, 224);
+  min-height: 50;
+  line-height: 3.5;
+  font-size: 1.2rem;
+  color: white;
+  padding: 0 20px;
+}
+
+header {
+  background: "#9a74db";
+  min-height: 50;
+  line-height: 3.5;
+  font-size: "1.2rem";
+  color: "white";
+  padding: "0 20px";
+}
