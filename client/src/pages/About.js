@@ -18,13 +18,14 @@ function About() {
 
         <Col sm={8} className="mt-4">
           <p>
-            Full stack developer, passionate about technology and continuous
-            improvement is seeking a software development role which will assist
-            in the corporate strategies to produce positive financial returns.
-            Over the past 13 years I have become well versed in operations,
-            engineering, and business development of the oil and gas industry. I
-            am now taking the skill sets I have acquired over my career and
-            integrating them with software engineering.
+            Full stack developer, passionate about technology, continuous
+            improvement, and all things related to Plex is seeking a software
+            development role which will assist in the corporate strategies to
+            produce positive financial returns. Over the past 13 years I have
+            become well versed in operations, engineering, and business
+            development of the oil and gas industry. I am now taking the skill
+            sets I have acquired over my career and integrating them with
+            software engineering.
           </p>
         </Col>
       </Row>
