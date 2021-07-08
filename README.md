@@ -39,6 +39,6 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 
 ### Links
 
-Deploy: https://jongregory75.github.io/React-Portfolio/
+Deploy: https://quiet-depths-99988.herokuapp.com/
 
 Repository: https://github.com/jongregory75/React-Portfolio
